@@ -1,9 +1,11 @@
+import Effect from "./Effect";
 import Increment from "./Increment";
 
 function App() {
   return (
     <div>
-      <Increment/>
+      {/* <Increment/> */}
+      <Effect/>
     </div>
   );
 }
