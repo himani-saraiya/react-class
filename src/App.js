@@ -1,11 +1,13 @@
-import Effect from "./Effect";
-import Increment from "./Increment";
+// import Effect from "./Effect";
+// import Increment from "./Increment";
+import Props from "./Props";
 
 function App() {
   return (
     <div>
       {/* <Increment/> */}
-      <Effect/>
+      {/* <Effect/> */}
+      <Props name="Himani" gmail="h@gmail.com"/>
     </div>
   );
 }
