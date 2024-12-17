@@ -1,8 +1,6 @@
-// import Effect from "./Effect";
-// import Increment from "./Increment";
-// import Props from "./Props";
-
-import ListRendering from "./ListRendering";
+// import ListRendering from "./ListRendering";
+// import Todo from "./To-doList";
+import ToDoList from "./ToDoList";
 
 function App() {
   return (
@@ -10,7 +8,9 @@ function App() {
       {/* <Increment/> */}
       {/* <Effect/> */}
       {/* <Props name="Himani" gmail="h@gmail.com"/> */}
-      <ListRendering/>
+      {/* <ListRendering/> */}
+      {/* <Todo/> */}
+      <ToDoList/>
     </div>
   );
 }
