@@ -1,18 +1,19 @@
-// import ListRendering from "./ListRendering";
-// import Todo from "./To-doList";
-import ToDoList from "./ToDoList";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Routing from './Routing';
+import Contact from './Contact';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      {/* <Increment/> */}
-      {/* <Effect/> */}
-      {/* <Props name="Himani" gmail="h@gmail.com"/> */}
-      {/* <ListRendering/> */}
-      {/* <Todo/> */}
-      <ToDoList/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Routing/>}  />
+        <Route path='/home' element={<Home/>}  />
+        <Route path='/contact' element={<Contact/>} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
